@@ -14,3 +14,4 @@ game/*.mp3
 game/*.ogg
 game/scenes/*.rpyc
 game/scripts/*.rpyc
+game/cache/*.rpyb
