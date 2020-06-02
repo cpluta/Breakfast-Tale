@@ -1,5 +1,6 @@
 *.txt
 tmp/
+cache/*.rpyb
 game/*.bak
 game/*.rpyb
 game/*.rpyc
@@ -11,3 +12,5 @@ game/*.jpeg
 game/*.png
 game/*.mp3
 game/*.ogg
+game/scenes/*.rpyc
+game/scripts/*.rpyc
