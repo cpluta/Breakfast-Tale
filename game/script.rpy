@@ -6,8 +6,10 @@
 # The game starts here.
 
 label start:
-    $ main_player = "Sunshine"
-    
+    call initialize_constants
+    call initialize_state
+    call initialize_characters
+
     call opening
     
     # This ends the game.

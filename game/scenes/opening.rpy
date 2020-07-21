@@ -48,3 +48,5 @@ label wokenup:
     p "Don't worry I won't."
 
     scene black with fade
+    
+    jump dream
