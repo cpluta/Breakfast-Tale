@@ -1,5 +1,5 @@
 label initialize_constants:
-    $ Hot = "Hot"
-    $ Wet = "Wet"
-    $ Dirt = "Dirt"
-    $ Wind = "Wind"
+    $ Fire = "Sun"
+    $ Water = "River"
+    $ Earth = "Ground"
+    $ Air = "Wind"

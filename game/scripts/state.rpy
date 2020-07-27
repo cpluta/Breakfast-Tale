@@ -1,2 +1,3 @@
 label initialize_state:
-    $ dream_choice = "Hot"
+    $ dream_choice = "Fire"
+    $ dream_choices = []

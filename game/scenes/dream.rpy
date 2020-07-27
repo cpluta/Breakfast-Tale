@@ -1,23 +1,24 @@
 label dream:
-    "Where was I again..."
+    # todo: add snore effect
+    "zzZZzz"
 
     menu:
-        "What is this feeling?"
+        "What's that feeling on my skin?"
 
-        "[Hot]":
-            $ dream_choice = Hot
+        "[Fire]":
+            $ dream_choice = Fire
             jump meet_chicken_guide_first
             
-        "[Wet]":
-            $ dream_choice = Wet
+        "[Water]":
+            $ dream_choice = Water
             jump meet_pig_guide_first
 
-        "[Wind]":
-            $ dream_choice = Wind
+        "[Air]":
+            $ dream_choice = Air
             jump meet_chicken_guide_first
 
-        "[Dirt]":
-            $ dream_choice = Dirt
+        "[Earth]":
+            $ dream_choice = Earth
             jump meet_pig_guide_first
     
 label meet_chicken_guide_first:
@@ -58,15 +59,11 @@ label guides_all_introduced:
     "[guide_c] and [guide_p]" "Now that we know eachother. We can start our journey."
     p "What journey are you talking about?"
 
-    if dream_choice == Hot:
-        "so hot"
-        #block of code to run
-    if dream_choice == Wet:
-        #block of code to run
-        "so wet"
-    if dream_choice == Wind:
-        #block of code to run
-        "so windy"
-    if dream_choice == Dirt:
-        #block of code to run
-        "so dirty"
+    if dream_choice == Fire:
+        jump dream_fire_first
+    if dream_choice == Water:
+        jump dream_water_first
+    if dream_choice == Air:
+        jump dream_wind_first
+    if dream_choice == Earth:
+        jump dream_earth_first
